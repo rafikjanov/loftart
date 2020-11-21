@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/Gilroy/Gilroy-Light.woff2') format('woff2'),
+    url('../fonts/Gilroy/Gilroy-Light.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy/Gilroy-Medium.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Gilroy/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../fonts/Gilroy/Gilroy-Black.woff2') format('woff2'),
+    url('../fonts/Gilroy/Gilroy-Black.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TenorSans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/TenorSans/TenorSans.woff2') format('woff2'),
+    url('../fonts/TenorSans/TenorSans.woff') format('woff'),
+    url('../fonts/TenorSans/TenorSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arvo';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Arvo/Arvo.woff2') format('woff2'),
+    url('../fonts/Arvo/Arvo.woff') format('woff'),
+    url('../fonts/Arvo/Arvo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arvo';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/Arvo/Arvo-Bold.woff2') format('woff2'),
+    url('../fonts/Arvo/Arvo-Bold.woff') format('woff'),
+    url('../fonts/Arvo/Arvo-Bold.ttf') format('truetype');
+}

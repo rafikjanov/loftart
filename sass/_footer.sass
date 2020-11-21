@@ -1,0 +1,47 @@
+@import "vars"
+
+.footer
+    position: relative
+    overflow: hidden
+    padding-top: 60px
+    padding-bottom: 80px
+    background: #383838
+    background: -moz-linear-gradient(-45deg, #383838 0%, #191919 100%)
+    background: -webkit-linear-gradient(-45deg, #383838 0%,#191919 100%)
+    background: linear-gradient(135deg, #383838 0%,#191919 100%)
+
+    .footer-card
+        &_image
+            margin-bottom: 35px
+        &_text
+            color: $white
+            line-height: 24px
+    .cord
+        position: absolute
+        bottom: 0
+        left: 0
+        overflow: hidden
+        &::before
+            content: ''
+            display: inline-block
+            position: relative
+            bottom: -275px
+            left: -230px
+            width: 792px
+            height: 1219px
+            background: url(../images/footer/cord.png) no-repeat center/100%
+
+    .f-rec_middle
+        left: -3%
+        top: 33%
+        width: 115px
+        height: 106px
+        background: url(../images/footer/rec_middle.png) no-repeat center/100%
+
+    .f-grass
+        position: absolute
+        bottom: 0
+        right: 0
+        width: 351px
+        height: 386px
+        background: url(../images/footer/grass.png) no-repeat center/100%

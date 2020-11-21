@@ -1,0 +1,370 @@
+@import "global"
+@import "vars"
+@import "header"
+
+// section view-loft
+.s-view-loft
+    position: relative
+    padding-bottom: 80px
+
+.view-loft__title
+    width: 550px
+    
+.view-loft__text
+    width: 270px
+
+.v-rec_middle
+    width: 97px
+    height: 91px
+    background: url(../images/view/rec_middle.png) no-repeat center/100%
+    z-index: 1
+
+.v-rec_middle-left 
+    top: 50%
+    left: -35px
+
+.v-rec_middle-right
+    top: 32%
+    right: 30px
+
+.view-card
+    display: flex
+    flex-direction: column
+    height: 100%
+    justify-content: flex-end
+
+    &_image
+        border: 7px solid $black
+        margin-bottom: 30px
+        & img
+            width: 100%
+
+    &_title
+        font-size: 24px
+        line-height: 28px
+        font-weight: 700
+        margin-bottom: 20px
+
+    &_text
+        color: $darkGray
+        font-size: 16px
+        line-height: 24px
+        font-weight: 300
+
+    &_restaurant
+        padding-left: 30px
+        padding-right: 30px
+
+// section interior
+.s-interior
+    position: relative
+    padding-top: 90px
+    padding-bottom: 160px
+    background: #191919
+    background: -moz-linear-gradient(45deg, #191919 0%, #383838 100%)
+    background: -webkit-linear-gradient(45deg, #191919 0%,#383838 100%)
+    background: linear-gradient(45deg, #191919 0%,#383838 100%)
+    &::before
+        content: ''
+        position: absolute
+        bottom: 0
+        width: 100%
+        z-index: 1
+        height: 175px
+        background: url(../images/interior/parallax.png) no-repeat center bottom/cover
+
+    .grass
+        position: absolute
+        bottom: 50px
+        left: 0
+        width: 273px
+        height: 375px
+        background: url(../images/interior/grass.png) no-repeat center/100%
+        
+    .i-rec_middle
+        position: absolute
+        top: 0
+        left: 0
+        right: 5%
+        bottom: 33%
+        margin: auto
+        width: 115px
+        height: 106px
+        background: url(../images/interior/rec_middle.png) no-repeat center/100%
+    .lamp
+        position: absolute
+        top: -200px
+        right: 0
+        width: 633px
+        height: 737px
+        background: url(../images/interior/lamp.png) no-repeat center/100%
+
+    .interior-card
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: 100%
+        margin-top: 10px
+
+        .interior-card_image
+            margin-top: auto
+            margin-bottom: 40px
+
+        .interior-card_description
+            color: $white
+            font-size: 16px
+            line-height: 24px
+
+        &.interior-card_center
+            align-items: center
+
+        &.interior-card_left
+            align-items: flex-end
+            & img
+                position: relative
+                top: 50px
+
+
+// section catalog
+.s-catalog
+    position: relative
+
+    .catalog-slider
+        padding-left: 50px
+        padding-right: 50px
+        margin-bottom: 80px
+
+        .owl-stage
+            display: flex !important
+
+        & button
+            position: absolute
+            margin: auto
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            border-radius: 50%
+            width: 55px
+            height: 55px
+            color: $white !important
+            outline: none
+            font-size: 0 !important
+
+        .owl-prev
+            margin-left: -25px
+            background: url(../images/icons/left.png) no-repeat center/8px 15px $yellow !important
+        .owl-next
+            margin-right: -25px
+            background: url(../images/icons/right.png) no-repeat center/8px 15px $yellow !important
+
+        .catalog-card
+            padding: 45px 30px 20px
+            background-color: #F8F8F8
+            border-radius: 10px
+            display: flex
+            flex-direction: column
+            height: 100%
+
+            .catalog-card_sale
+                position: absolute
+                top: 10px
+                left: 10px
+                height: 23px
+                width: auto
+                color: $white
+                font-size: 14px
+                line-height: 24px
+                font-weight: bold
+                padding-left: 10px
+                padding-right: 10px
+                border-radius: 5px
+                background-color: $red
+
+            .catalog-card_image
+                text-align: center
+                margin-bottom: 35px
+                & img
+                    width: auto
+                    margin: auto
+
+            .catalog-card_name
+                color: $black
+                text-align: center
+                font-size: 16px
+                font-weight: 500
+                margin-bottom: 20px
+
+            .catalog-card_price
+                display: flex
+                flex-direction: column
+                align-items: center
+                font-family: 'Arvo', sans-serif
+                margin-top: auto
+
+                del
+                    font-size: 14px
+                    color: $gray
+                    margin-bottom: 10px
+
+                span
+                    width: auto
+                    padding-right: 12px
+                    padding-left: 12px
+                    border-radius: 5px
+                    font-size: 16px
+                    line-height: 32px
+                    color: $black
+                    background-color: $yellow
+                    height: 32px
+                    b
+                        font-size: 21px
+
+
+//section product
+.s-product
+    position: relative
+    padding-bottom: 110px
+    .section-title
+        width: 665px
+
+    .p-rec_middle
+        position: absolute
+        left: 0
+        bottom: 50%
+        width: 177px
+        height: 167px
+        z-index: 1
+        background: url(../images/catalog/rec_middle.png) no-repeat center/100%
+
+    .p-rec_small
+        position: absolute
+        top: 15%
+        right: 30%
+        width: 69px
+        height: 73px
+        z-index: 1
+        background: url(../images/product/rec_small.png) no-repeat center/100%
+
+// section advantages
+.s-advantages
+    position: relative
+    background: url(../images/advantages/background.jpg) no-repeat center/cover
+    height: 1303px
+    overflow: hidden
+    padding-top: 100px
+    &::before
+        content: ''
+        display: block
+        position: absolute
+        bottom: -1px
+        left: 0
+        width: 100%
+        height: 326px
+        background: url(../images/advantages/parallax.png) no-repeat center bottom / 100%
+
+    .advantages_col
+        display: flex
+
+        .advantages_number
+            margin-right: 30px
+
+        .advantages_text
+            line-height: 24px
+            width: 163px
+        .advantages_text-200
+            width: 200px
+
+
+    .advantages_info
+        margin-top: 30px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        text-align: center
+        line-height: 40px
+        font-size: 24px
+        font-weight: 500
+        & b
+            font-size: 36px
+            font-weight: 800
+
+
+
+// section gain
+.s-gain
+    position: relative
+    padding-bottom: 90px
+    overflow: hidden
+
+    .gain-table
+        margin-right: 30px
+
+    .gain-list
+        padding: 0
+        margin: 0
+        list-style: none
+        & li
+            position: relative
+            margin-bottom: 80px
+            line-height: 24px
+            &::before
+                content: ''
+                position: absolute
+                display: inline-block
+                width: 37px
+                height: 33px
+                background: url(../images/gain/rec_small.png)
+
+        &.gain-list_left
+            text-align: left
+            li
+                &::before
+                    top: -33px
+                    left: -37px
+                &:first-child,
+                &:last-child
+                    margin-left: 40px
+
+        &.gain-list_right
+            text-align: right
+            li
+                &::before
+                    top: -33px
+                    right: -37px
+                &:first-child,
+                &:last-child
+                    margin-right: 40px
+
+    .gain-left_stump
+        top: 0
+        &::before
+            left: -70px
+            width: 307px
+            height: 315px
+            background: url('../images/gain/stump_left.png') no-repeat center/100%
+
+    .gain-right_stump
+        bottom: 150px
+        right: 0
+        &::before
+            right: 0
+            width: 219px
+            height: 227px
+            background: url('../images/gain/stump_right.png') no-repeat center/100%
+
+    .g-rec_big
+        top: -5%
+        right: -26%
+        width: 177px
+        height: 167px
+        background: url(../images/gain/rec_big.png) no-repeat center/100%
+
+    .g-rec_middle
+        bottom: 20%
+        left: -16%
+        width: 121px
+        height: 115px
+        background: url(../images/gain/rec_middle.png) no-repeat center/100%
+@import "footer" 
+@import "responsive"
